@@ -1,0 +1,276 @@
+body {
+  background-image: url('images/photo-1504288145234-919e7bbc6d19.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: auto;
+  height: 100%;
+}
+header {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 100%;
+  background-color: #f2aa4cff;
+}
+
+#box {
+  width: 85%;
+  height: 100%;
+  background-color: #000000ff;
+}
+
+* {
+  margin: auto;
+  color: white;
+}
+
+.site-footer {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 100%;
+  background-color: black;
+}
+.logo-main {
+  background-image: url(images/maserati-logo.jpg);
+  height: 70px;
+  width: 86px;
+  margin-top: 5px;
+  background-size: cover;
+  border-radius: 90%;
+}
+.logo-main:hover {
+  transform: scale(1.2);
+  transition: ease all 1s;
+  cursor: pointer;
+}
+
+.title {
+  display: inline;
+  float: left;
+  font-size: 40px;
+  vertical-align: middle;
+  font-style: italic;
+  margin-left: 20px;
+  margin-top: 12.5px;
+  text-shadow: 2px 2px 2px black;
+  /*border: 5px black solid;*/
+}
+
+.phone-logo {
+  height: 70px;
+  width: 70px;
+  background-size: cover;
+  float: right;
+  margin-top: 5px;
+  margin-right: 20px;
+  border-radius: 50%;
+  background-image: url(images/fone.png);
+}
+
+.phone-logo:hover {
+  transform: rotate(360deg);
+  transition: ease all 1s;
+  cursor: pointer;
+}
+
+#menu {
+  background-color: #000000ff;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+}
+
+#menu div {
+  text-transform: uppercase;
+  font-weight: bold;
+  border-right: 1px solid black;
+  text-align: center;
+  line-height: 60px;
+  width: 100%;
+}
+
+#menu div:hover {
+  background-color: aliceblue;
+  color: black;
+  cursor: pointer;
+}
+#show-img {
+  background-image: url(images/11207.jpg);
+  width: inherit;
+  height: 200px;
+  background-size: cover;
+}
+
+#our-products {
+  background-color: #000000ff;
+  color: white;
+  width: inherit;
+  text-align: center;
+  line-height: 60px;
+  font-size: 30px;
+  text-transform: uppercase;
+  /*text-shadow: 5px 5px 5px black;*/
+  font-weight: bold;
+  font-style: italic;
+  /*border-bottom: black solid 1px;*/
+}
+
+#products {
+  background-color: #000000ff;
+  color: white;
+  width: inherit;
+  height: 300px;
+  display: flex;
+  /* background-color: darksalmon;*/
+}
+#product-tags {
+  width: inherit;
+  height: 40px;
+  background-color: darksalmon;
+  text-transform: uppercase;
+}
+#products p {
+  font-size: 30px;
+}
+#products img {
+  border-radius: 50%;
+  margin-top: 10px;
+  float: left;
+  width: 33%;
+  height: auto;
+}
+
+#products img:hover {
+  transform: scale(1.15);
+  transition: ease all 1s;
+}
+#our-team {
+  background-color: #f2aa4cff;
+  width: inherit;
+  text-align: center;
+  line-height: 60px;
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-style: italic;
+}
+
+#team {
+  background-color: #f2aa4cff;
+}
+
+.data {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+#harman {
+  display: flex;
+  justify-content: center;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+#team img {
+  width: 250px;
+  margin: 0;
+  vertical-align: middle;
+  /*margin-top: 10px;*/
+  height: 250px; /*
+     margin-left: 41.75px;*/
+  border-radius: 50%;
+}
+
+#team img:hover {
+  transform: scale(1.15);
+  transition: ease all 1s;
+  cursor: pointer;
+}
+
+#copyright {
+  background-color: black;
+  color: white;
+  line-height: 30px;
+  font-weight: bold;
+  font-style: italic;
+  text-align: center;
+}
+
+#products-box {
+  display: none;
+}
+#products-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+}
+#products-wrapper p {
+  height: 40px;
+}
+.product-title {
+  margin-top: 15px;
+}
+.product-img {
+  height: 170px;
+  width: 100%;
+}
+.card {
+  width: 300px;
+  border: 1px dotted white;
+  padding: 20px;
+  border-radius: 1%;
+  margin-bottom: 25px;
+}
+input,
+textarea {
+  margin-left: 20px;
+  color: black;
+  height: 30px;
+}
+
+#formContent {
+  margin: auto;
+  font-size: 25px;
+}
+#innnerFormCont {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  padding: 20px;
+}
+#radios {
+  margin: 20px auto;
+  width: 10em;
+}
+
+#textForm {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+  margin: 20px auto;
+}
+#mesag {
+  display: flex;
+  margin: 20px auto;
+}
+button {
+  background-color: black;
+  width: 100px;
+  padding: 10px;
+  font-style: italic;
+  font-weight: bold;
+  border-radius: 1%;
+}
+button:hover {
+  background-color: white;
+  color: black;
+  padding: 10px;
+  font-style: italic;
+  font-weight: bold;
+  cursor: pointer;
+}
